@@ -4,7 +4,7 @@ A stand-alone [Nova](https://nova.app/) extension which automatically makes back
 
 Every time you save a file, it will make a backup in a dedicated folder and reconstruct the folders and files tree structure.
 
-![Example of backup structure](/Images/backup_example.png)
+![Example of backup structure](https://raw.githubusercontent.com/Gugu7264/GuBackUp.novaextension/4518cfb627be1fce99d85bb3144cbd5b73d3c47c/Images/backup_example.png)
 
 ## Requirements
 There aren't any requirements, you just need to install the extension and you are ready to go!

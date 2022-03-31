@@ -73,6 +73,7 @@ function makeBackup(editor) {
             pathitems.unshift(bspace);
         } catch {
             console.log(thedoc.path);
+            return;
         }
     }
     bdir = bdir.replace(/\/$/, "") + "/";
