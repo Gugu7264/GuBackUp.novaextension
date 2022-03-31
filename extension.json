@@ -1,0 +1,51 @@
+{
+    "identifier": "gubeka.GuBackUp",
+    "name": "GuBackUp",
+    "organization": "Gubeka",
+    "description": "Generate a backup file each time you save your work.",
+    "version": "0.1.0",
+    "categories": ["commands"],
+
+    "main": "main.js",
+
+    "activationEvents": [
+        "*"
+    ],
+
+    "entitlements": {
+        "filesystem": "readwrite"
+    },
+
+    "commands": {
+        "extensions": [
+            {
+                "title": "Save and Backup",
+                "command": "backup.saveAndBackup",
+                "shortcut": "cmd-shift-b"
+            }
+        ]
+    },
+
+    "config": [
+        {
+            "key": "backup.backupDir",
+            "title": "Backup Directory",
+            "type": "path",
+            "default": "~/Documents/",
+            "required": true,
+            "allowFolders": true,
+            "allowFiles": false
+        }
+    ],
+
+    "configWorkspace": [
+        {
+            "key": "backup.projectBackupDir",
+            "title": "Project Backup Directory",
+            "type": "path",
+            "required": false,
+            "allowFolders": true,
+            "allowFiles": false
+        }
+    ]
+}
