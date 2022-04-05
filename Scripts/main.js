@@ -58,7 +58,6 @@ function makeBackup(editor) {
             bdir = pbdir; // Set the backup dir to project's setting if set
         }
         pathitems = thedoc.path.replace(/^\//, "").split("/").slice(0, -1);
-        pathitems.unshift("misc")
     }
 
     if (bdir === null) { // Hasn't been set above
@@ -73,6 +72,7 @@ function makeBackup(editor) {
             pathitems.unshift(bspace);
         } catch {
             console.log(thedoc.path);
+            pathitems.unshift("misc")
             return;
         }
     }
