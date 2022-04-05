@@ -3,7 +3,7 @@
     "name": "GuBackUp",
     "organization": "Gubeka",
     "description": "Generate a backup file each time you save your work.",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "categories": ["commands"],
     "bugs": "https://github.com/Gugu7264/GuBackUp.novaextension/issues/new",
     "repository": "https://github.com/Gugu7264/GuBackUp.novaextension",
