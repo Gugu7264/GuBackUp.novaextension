@@ -12,3 +12,7 @@ Fixes some issues:
 ## Version 0.1.3
 <!-- 04/05/2022 -->
 - Changelog versioning not matching actual extension versioning
+
+## Version 0.1.3
+<!-- 04/06/2022 -->
+- Fix remote files not being saved
