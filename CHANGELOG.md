@@ -16,3 +16,7 @@ Fixes some issues:
 ## Version 0.1.3
 <!-- 04/06/2022 -->
 - Fix remote files not being saved
+
+## Version 0.1.5
+<!-- 04/09/2022 -->
+- Change extension logo
